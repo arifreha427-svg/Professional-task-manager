@@ -1,4 +1,4 @@
-# 🛡️ Premium Task Manager – Modern Dark UI Dashboard (Jetpack Compose)
+#  Premium Task Manager – Modern Dark UI Dashboard (Jetpack Compose)
 
 Welcome to the **Task Manager** portfolio/resume project. It is a modern, high-fidelity productivity and workflow-tracking application designed with a polished dark theme layout, responsive Material 3 components, and robust local persistence.
 
@@ -6,7 +6,7 @@ This project showcases clean development principles (**MVVM architecture**, **Ro
 
 ---
 
-## 🎨 Visual Experience & Aesthetic Choices
+##  Visual Experience & Aesthetic Choices
 
 This application moves entirely away from generic defaults, committing with restraint to a bold **Obsidian Synth Slate** identity:
 - **Obsidian Dark Canvas (`#0F172A`)**: A deep Slate-900 baseline container that maximizes readability and eye-comfort, perfect for long-run productivity sessions.
@@ -16,19 +16,19 @@ This application moves entirely away from generic defaults, committing with rest
 
 ---
 
-## 🚀 Key Functional Modules
+##  Key Functional Modules
 
-### 🔐 1. Protected JWT-Like Session Security
+###  1. Protected JWT-Like Session Security
 - **Registration Screen**: Captures and validates User Credentials (Name, Email, and min 6-character Passwords). Passwords are securely hashed using a built-in **SHA-256 MessageDigest** before saving to SQL tables.
 - **Login Screen**: Authenticates against existing users in the local SQLite engine.
 - **Session Management**: Simulates Token-based Auth (JWT standard) by managing unique session signatures inside local `SharedPreferences` to secure subsequent access.
 - **Protected Routing**: The app checks standard login tokens on immediate startup and routes users safely to the Main Dashboard or Auth forms.
 
-### 📊 2. Interactive Analytical Dashboard
+###  2. Interactive Analytical Dashboard
 - **Completion Progress Ring**: A circular animated progress indicator showing the user’s exact workflow complete-ratio dynamically.
 - **KPI Metrics Strip**: Beautiful counter cards for active **Pending** and **In Progress** items, updating reactively on change.
 
-### 📂 3. Responsive Task CRUD & Filter Controls
+###  3. Responsive Task CRUD & Filter Controls
 - **Flexible Filters**: Smooth horizontal-scrolling category chips allow filtering by context tags like: `Work`, `Personal`, `Health`, `Shopping`, and `Other`.
 - **Workflow Tabs**: Instantly swap status streams between *Completed*, *In Progress*, or *Pending*.
 - **Real-time Querying**: Local search bar filters title headings and descriptions with no main thread block.
@@ -36,7 +36,7 @@ This application moves entirely away from generic defaults, committing with rest
 
 ---
 
-## 📂 Architecture & Folder Structure
+##  Architecture & Folder Structure
 
 We follow the strictly recommended clean development directory hierarchy:
 
@@ -75,7 +75,7 @@ com.example/
 
 ---
 
-## 🛠️ Tech Stack & Dependencies
+##  Tech Stack & Dependencies
 
 The project is built on the following production-tested components managed in `libs.versions.toml`:
 - **Kotlin 2.2.10** & **Jetpack Compose Native UI**
@@ -85,7 +85,7 @@ The project is built on the following production-tested components managed in `l
 
 ---
 
-## 🔌 API Expansion Guide (From Simulated Local to REST Full-Stack)
+##  API Expansion Guide (From Simulated Local to REST Full-Stack)
 
 If you are presenting this project in a junior developer interview, you can easily explain how you can scale this offline-first client-side architecture to connect with your **Express.js / Node.js and MongoDB** full-stack:
 
@@ -104,7 +104,7 @@ If you are presenting this project in a junior developer interview, you can easi
 
 ---
 
-## 🚀 Portability & Deployment
+##  Portability & Deployment
 
 - **APK Compilation**: The app builds an optimized debug APK. It can be built locally using `gradle assembleDebug` or `compile_applet` inside the AI Studio container workspace.
 - **Emulator Verification**: Visually accessible in real-time via the Streaming Android Emulator.
