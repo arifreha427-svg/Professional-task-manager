@@ -1,0 +1,6 @@
+{
+  "name": "Task Manager",
+  "description": "A professional dark-themed full-stack-ready Task Management application with user authentication, category filters, and intuitive statistics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
